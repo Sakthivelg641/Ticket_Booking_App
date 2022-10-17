@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href='https://fonts.googleapis.com/css?family=Roboto&display=swap' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>
+                BookMyShow
+        </title>
+     </head>
+    <body>
+        
+        <div class="container">
+            <div class="movie_container">
+                <label>Pick a movie</label>
+                <select id="movie">
+                    <option value="15">Movie 1(15$)</option>
+                    <option value="13">Movie 2(13$)</option>
+                    <option value="13">Movie 3(13$)</option>
+                    <option value="10"> Movie 4(10$)</option>
+                </select>
+            </div>
+            <div class="info">
+                   <div class="heading_seat">
+                    <div class="seat booked"></div>
+                    <p>Booked</p>
+                    <div class="seat notBooked"></div>
+                    <p>Not Booked</p>
+                    <div class="seat selected"></div>
+                    <p>Selected</p>
+                   </div>
+            </div>
+            <div class="screen">
+
+            </div>
+            <div class="seats">
+                <table style="width: 100%;">
+                    <tr>
+                        <td></td>
+                        <td>C1</td>
+                        <td>C1</td>
+                    </tr>    
+                    <tr>
+                    </tr>
+                    <td>R1</td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <tr>
+                        <td>R1</td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                    <tr>
+                        <td>R1</td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                </table>
+                <table style="width: 100%;">
+                    <tr>
+                        <td>C1</td>
+                        <td>C1</td>
+                        <td>C1</td>
+                        <td>C1</td>
+                        <td>C1</td>
+                        <td>C1</td>
+                    </tr> 
+                    <tr>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat booked"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                    <tr>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                    <tr>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat booked"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                </table>
+                <table style="width: 100%;">
+                    <tr>
+                        <td>C1</td>
+                        <td>C1</td>
+                        <td>C1</td>
+                    </tr>
+                    <tr>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat booked"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                    <tr>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                    <tr>
+                    <td><div class="seat"></div></td>
+                    <td><div class="seat booked"></div></td>
+                    <td><div class="seat"></div></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <p>You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span></p>
+            </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
