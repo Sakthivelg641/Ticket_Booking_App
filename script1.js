@@ -1,0 +1,1 @@
+let column = document.getElementsByClassName("new")
