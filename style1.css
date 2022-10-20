@@ -5,21 +5,16 @@
   font-family: "Lato", sans-serif;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
-  text-align: center;
   background-color: #f6fbf4;
-  text-align: center;
+  justify-content: center;
+text-align: center;
+align-items: center;
 }
 .row1 {
   display: flex;
 }
 .seats {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   width: 50px;
   height: 46px;
   border: 1px solid #9da8be;
@@ -27,8 +22,8 @@ body {
   padding: 16px 6px;
   margin: 6px;
 }
-.row1{justify-content: center;
-align-items: center;
+.row1{
+  justify-content: center;
 padding: 0px 0px;}
 .seats:hover{cursor: pointer;}
 .seats.booked {
@@ -55,16 +50,20 @@ padding: 0px 0px;}
 }
 .container H1{
   text-shadow: 5px 5px 5px #CCCCCC;
+  text-align: center;
   margin-bottom: 30PX;
 }
-.screen p{width: 720px;
+.screen{justify-content: center;
+  text-align: center;
+  align-items: center;
+display: flex;}
+.screen p{width:50%;
 height: 60px;
 margin-top: 30px;
 font-weight: 500;
 background-color: #118eea;
 padding: 20px;}
 .total{margin-top: 50px;}
-.total p{text-align: left;}
 .total .parent{color: #5A637A;
 margin-bottom: 10px;
 font-weight: 550;
@@ -74,3 +73,25 @@ font-weight: 700;}
 .total .child.margin{margin-bottom: 20px;}
 .total .child td{width: 250px;
 height: 100%;}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

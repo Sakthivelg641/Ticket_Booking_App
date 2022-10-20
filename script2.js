@@ -1,3 +1,2 @@
-let j = document.getElementsByTagName('li')
-j.textContent="hi"
-let a =5
+const filmValue = document.getElementsByTagName('p')
+let price = filmValue.textContent
