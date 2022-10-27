@@ -49,6 +49,8 @@ padding: 0px 0px;}
   color: black;
 }
 .container H1{
+  margin-top: 150px;
+  margin-bottom: 100px;
   text-shadow: 5px 5px 5px #CCCCCC;
   text-align: center;
   margin-bottom: 30PX;
