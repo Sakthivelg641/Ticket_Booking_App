@@ -139,6 +139,7 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
     font-size: 60px;
     font-weight: 100;
     line-height: 1;
+    display: none;
   }
   figure img {
     height: 100%;
