@@ -1,0 +1,24 @@
+body{
+justify-content: center;
+align-items: center;
+text-align: center;}
+.title{display: flex;
+    justify-content: center;
+align-items: center;
+text-align: center;
+color:#1a2c50;
+font-size: 3rem;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 900;
+margin-top: 300px;
+}
+.btn {margin-bottom: 10px;}
+.btn button{
+    background-color: #1a2c50;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

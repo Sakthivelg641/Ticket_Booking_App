@@ -190,6 +190,9 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
 }
 .adPoster img{width: 100%;
 height: 100%;}
+figure figcaption button a{text-decoration: none;
+color: #f6fbf4;
+font-size: large;}
 @media only screen and (max-width: 1200px) {
   .card {
       flex-basis: 25%;

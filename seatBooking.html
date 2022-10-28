@@ -1,110 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="./src/style1.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href='https://fonts.googleapis.com/css?family=Roboto&display=swap' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>
-                BookMyShow
-        </title>
-     </head>
-    <body>
-        <div class="container">
-                <H1>SELECT YOUR SEATS</H1>
-                <div class="seat">
-                    <div class="table">
-                        <div class="row1">
-                            <div class="seats"> A1</div>
-                            <div class="seats"> A2</div>
-                            <div class="seats"> A3</div>
-                            <div class="seats"> A4</div>
-                            <div class="seats"> A5</div>
-                            <div class="seats"> A6</div>
-                            <div class="seats"> A7</div>
-                            <div class="seats"> A8</div>
-                            <div class="seats"> A9</div>
-                            <div class="seats"> A10</div>
-                        </div>
-                    </div>
-                    <div class="table">
-                        <div class="row1">
-                            <div class="seats"> B1</div>
-                            <div class="seats"> B2</div>
-                            <div class="seats"> B3</div>
-                            <div class="seats"> B4</div>
-                            <div class="seats"> B5</div>
-                            <div class="seats booked"> B6</div>
-                            <div class="seats"> B7</div>
-                            <div class="seats"> B8</div>
-                            <div class="seats"> B9</div>
-                            <div class="seats"> B10</div>
-                        </div>
-                    </div>
-                    <div class="table">
-                        <div class="row1">
-                            <div class="seats"> C1</div>
-                            <div class="seats"> C2</div>
-                            <div class="seats"> C3</div>
-                            <div class="seats"> C4</div>
-                            <div class="seats"> C5</div>
-                            <div class="seats"> C6</div>
-                            <div class="seats booked"> C7</div>
-                            <div class="seats"> C8</div>
-                            <div class="seats"> C9</div>
-                            <div class="seats"> C10</div>
-                        </div>
-                    </div>
-                    <div class="table">
-                        <div class="row1">
-                            <div class="seats"> D1</div>
-                            <div class="seats"> D2</div>
-                            <div class="seats"> D3</div>
-                            <div class="seats"> D4</div>
-                            <div class="seats"> D5</div>
-                            <div class="seats"> D6</div>
-                            <div class="seats booked"> D7</div>
-                            <div class="seats"> D8</div>
-                            <div class="seats"> D9</div>
-                            <div class="seats"> D10</div>
-                        </div>
-                    </div>
-                    <div class="table">
-                        <div class="row1">
-                            <div class="seats"> E1</div>
-                            <div class="seats"> E2</div>
-                            <div class="seats"> E3</div>
-                            <div class="seats"> E4</div>
-                            <div class="seats"> E5</div>
-                            <div class="seats"> E6</div>
-                            <div class="seats booked"> E7</div>
-                            <div class="seats"> E8</div>
-                            <div class="seats"> E9</div>
-                            <div class="seats"> E10
-                            
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>BookMyShow</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SELECT YOUR SEATS</h1>
+      <h2></h2>
+      <div class="seat">
+        <div class="table">
+          <div class="row1">
+            <div class="seats">A1</div>
+            <div class="seats">A2</div>
+            <div class="seats">A3</div>
+            <div class="seats">A4</div>
+            <div class="seats">A5</div>
+            <div class="seats">A6</div>
+            <div class="seats">A7</div>
+            <div class="seats">A8</div>
+            <div class="seats">A9</div>
+            <div class="seats">A10</div>
+          </div>
         </div>
-    
-        <div class="screen"><p>SCREEN THIS WAY</div>
-            <div class="total">
-                <div>
-                    <p class="parent">Total
-                    <p class="child margin">Rs:<span id="total"> 0</span> Only</p>
-                </div>
-                <div>
-                    <p class="parent">Seats</p>
-                    <p class="child"><span id="selectedSeats"></span></p>
-                </div>
-            </div>
-        <script src="script1.js"></script>
-        <script src="script2.js"></script>
-    </body>
+        <div class="table">
+          <div class="row1">
+            <div class="seats">B1</div>
+            <div class="seats">B2</div>
+            <div class="seats">B3</div>
+            <div class="seats">B4</div>
+            <div class="seats">B5</div>
+            <div class="seats booked">B6</div>
+            <div class="seats">B7</div>
+            <div class="seats">B8</div>
+            <div class="seats">B9</div>
+            <div class="seats">B10</div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="row1">
+            <div class="seats">C1</div>
+            <div class="seats">C2</div>
+            <div class="seats">C3</div>
+            <div class="seats">C4</div>
+            <div class="seats">C5</div>
+            <div class="seats">C6</div>
+            <div class="seats booked">C7</div>
+            <div class="seats">C8</div>
+            <div class="seats">C9</div>
+            <div class="seats">C10</div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="row1">
+            <div class="seats">D1</div>
+            <div class="seats">D2</div>
+            <div class="seats">D3</div>
+            <div class="seats">D4</div>
+            <div class="seats">D5</div>
+            <div class="seats">D6</div>
+            <div class="seats booked">D7</div>
+            <div class="seats">D8</div>
+            <div class="seats">D9</div>
+            <div class="seats">D10</div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="row1">
+            <div class="seats">E1</div>
+            <div class="seats">E2</div>
+            <div class="seats">E3</div>
+            <div class="seats">E4</div>
+            <div class="seats">E5</div>
+            <div class="seats">E6</div>
+            <div class="seats booked">E7</div>
+            <div class="seats">E8</div>
+            <div class="seats">E9</div>
+            <div class="seats">E10</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen"><p>SCREEN THIS WAY</p></div>
+    <div class="total">
+      <div>
+        <p class="parent">Total</p>
+        <p class="child margin">Rs:<span id="total"> 0</span> Only</p>
+      </div>
+      <div>
+        <p class="parent">Seats</p>
+        <p class="child"><span id="selectedSeats"></span></p>
+      </div>
+    </div>
+    <div class="btn">
+      <button>
+        <a href="./payment.html">Go to Payment</a>
+      </button>
+      <button>
+        <a href="./homePage.html">Go to Home</a>
+      </button>
+    </div>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+  </body>
 </html>
