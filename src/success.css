@@ -22,3 +22,11 @@ margin-top: 300px;
     border-radius: 15px;
     cursor: pointer;
 }
+.btn button a{ background-color: #1a2c50;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+text-decoration: none;}

@@ -32,15 +32,6 @@ window.localStorage.setItem('price',total.textContent)
 }
 selectedSeats.textContent = seatArray 
 window.localStorage.setItem('seats',selectedSeats.textContent)
-console.log(seatArray)
 })
-
-
-let filmName=document.querySelector('.container h2')
-
-seatFilmName=window.localStorage.getItem('movieTitle')
-const newSeatFileName = (JSON.parse(seatFilmName))
-console.log(seatFilmName)
-filmName.textContent=newSeatFileName[1]
-
-console.log(total)
+const nameContainer = document.getElementById('movieId')
+nameContainer.textContent = window.localStorage.getItem('m1')
