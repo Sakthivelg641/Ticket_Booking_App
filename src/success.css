@@ -1,32 +1,38 @@
-body{
-justify-content: center;
-align-items: center;
-text-align: center;}
-.title{display: flex;
-    justify-content: center;
-align-items: center;
-text-align: center;
-color:#1a2c50;
-font-size: 3rem;
-font-family: 'Courier New', Courier, monospace;
-font-weight: 900;
-margin-top: 300px;
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.btn {margin-bottom: 10px;}
-.btn button{
-    background-color: #1a2c50;
-    color: white;
-    padding: 10px;
-    font-size: larger;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1a2c50;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  margin-top: 300px;
 }
-.btn button a{ background-color: #1a2c50;
-    color: white;
-    padding: 10px;
-    font-size: larger;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-text-decoration: none;}
+.btn {
+  margin-bottom: 10px;
+}
+.btn button {
+  background-color: #1a2c50;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btn button a {
+  background-color: #1a2c50;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}

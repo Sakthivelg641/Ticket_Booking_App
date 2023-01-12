@@ -1,37 +1,43 @@
-body{
+body {
+  margin: 0%;
+}
+.ticket_container {
+  width: 650px;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: 600px;
+  background-color: #1a2c50;
+  border-radius: 15px;
+}
 
-    margin: 0%;
-}
-.ticket_container{
-    width: 650px;
-    height: 350px;
-    margin-top: 200px;
-    margin-left:600px ;
-    background-color: #1A2C50;
-    border-radius: 15px;
+.ticket_container .ticketMovieName h1 {
+  color: #f2c46f;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 40px;
+  padding-top: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.ticket_container .ticketMovieName h1{color: #F2C46F;
-font-size: 30px;
-font-weight: 500;
-margin-left: 40px;
-padding-top: 40px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
-
-.ticket_container .ticketMovieName h2{
-    color: white;
-    margin-left: 40px;
-padding-top: 40px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.ticket_container .ticketMovieName h2 {
+  color: white;
+  margin-left: 40px;
+  padding-top: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-button{font-size: 25px;
-margin-left: 290px;
-background-color: #1A2C50;
-border: none;
-color: #F2C46F;
-cursor: pointer;
-margin-bottom: 10px;
+button {
+  font-size: 25px;
+  margin-left: 290px;
+  background-color: #1a2c50;
+  border: none;
+  color: #f2c46f;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
-@media print{
-    button{display: none;}
+@media print {
+  button {
+    display: none;
+  }
 }

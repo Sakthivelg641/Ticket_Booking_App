@@ -1,4 +1,6 @@
-function print(){
-    window.print()
+function print() {
+  window.print();
 }
-const tmName = document.querySelector('.ticket_container .ticketMovieName .tmName')
+const tmName = document.querySelector(
+  ".ticket_container .ticketMovieName .tmName"
+);
